@@ -1,0 +1,19 @@
+React
+1-It is an open source Javascript Library for creating user Interfaces(not a framework).
+2-Used to build user interfaces
+3-It’s not responsible for routing or making http request
+4-Used for handling the view layer of our application
+5-It allows to create large web applications that can change data without reloading the webpage(spa i assume)
+
+#Component Based Architecture:
+Application can be broken down into small components and components allow reuse of code.
+
+#npx create-react-app:
+It’ll automatiaclly create a react app. It means we don’t have to set up or install race on out machines. Instead this particular package does all of that for us. 
+
+#npm start -> it runs the application 
+
+#ctrl c -> it stops the application
+ 
+#Understanding Signifiance of react project files
+ 
