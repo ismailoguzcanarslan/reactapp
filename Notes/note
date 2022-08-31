@@ -16,4 +16,9 @@ It’ll automatiaclly create a react app. It means we don’t have to set up or 
 #ctrl c -> it stops the application
  
 #Understanding Signifiance of react project files
- 
+
+-package.json => 
+
+-node_modules =>  keeps the dependencies that downloaded. 
+
+-public => 
