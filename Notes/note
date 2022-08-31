@@ -18,7 +18,26 @@ It’ll automatiaclly create a react app. It means we don’t have to set up or 
 #Understanding Signifiance of react project files
 
 -package.json => 
+1-Scripts -> Required thing for application be able to run. For example when we write npm start it executes "react-script start"(commands).
+2-Dependencies -> we can see our dependencies in package file. Required packages for application run. We keep dependencies names here
 
--node_modules =>  keeps the dependencies that downloaded. 
+-node_modules =>  keeps the dependencies that downloaded. Actual dependencies are in here in this file(contains required modules). 
 
 -public => 
+
+1-index.html -> main file of our application. React is going take control this index.html file and it'll insert components, insert elements into this file dynamically
+In this file we've "div" elemant and it's id is "root". React gets reference to this div after that in injects elements or components to this div. 
+
+-src=> 
+
+index.js -> This is starting point of react application.  
+
+#first we access to root element in index.html
+const root = ReactDOM.createRoot(document.getElementById('root'));
+
+#after that we rendering component that named App 
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
